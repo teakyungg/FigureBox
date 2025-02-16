@@ -1,12 +1,15 @@
 import React from "react";
-import TextDisplay from './module';
+import FigureBox from './module';
 
 
 
 function App() {
+
+  let dec = <h2>....................</h2>
+
   return (
     <div>
-       <TextDisplay title={"title"} contents={"contents"}/>
+       <FigureBox num={0} contents={["contents","contents"]} dec={dec}/>
     </div>
   );
 }

@@ -1,0 +1,14 @@
+.figurebox{
+    width: 250px;
+    background-color: lightgray;
+
+    box-sizing: border-box;
+    padding: 20px;
+
+    text-align: center;
+    word-wrap: break-word;
+}
+
+.figurebox > figcaption:nth-of-type(1){
+    margin-top: 10px;
+}
